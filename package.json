@@ -1,0 +1,28 @@
+{
+  "name": "relux",
+  "version": "0.0.1",
+  "description": "relax yourself from building redux applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/namelos/relux.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "namelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namelos/relux/issues"
+  },
+  "homepage": "https://github.com/namelos/relux#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-redux": "^4.4.4",
+    "redux": "^3.4.0"
+  }
+}
