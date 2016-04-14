@@ -1,6 +1,9 @@
 import { combineReducers } from 'redux'
-import { createReducer } from './createReducer'
+import createReducer from './createReducer'
 
-export function bindDynamicReducers(dynamicReducers) {
-  return combineReducers(dynamicReducers)
+export default function bindDynamicReducers(dynamicReducers) {
+  return combineReducers({
+    _: createReducer({}, {}),
+    ...dynamicReducers
+  })
 }
