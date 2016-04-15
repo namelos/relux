@@ -7,7 +7,7 @@
 ```javascript
   import React, { Component } from 'react'
   import { render } from 'react-dom'
-  import { createStore, combineReducers, compose } from 'redux'
+  import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
   import { Provider } from 'react-redux'
   import { injectStore, createRelux } from 'relux'
 
@@ -25,7 +25,7 @@
   })
   class Counter1 extends Component {
     render() {
-      const { counter1, increment, counter1_increment, counter2_increment} = this.props
+      const { counter1, increment, counter1_increment, counter2_increment } = this.props
       return (
         <div>
           <p>{counter1}</p>
