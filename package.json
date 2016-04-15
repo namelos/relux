@@ -1,6 +1,6 @@
 {
   "name": "relux",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "relax yourself from building redux applications",
   "main": "lib/index.js",
   "scripts": {
